@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="LoginApp.AddProductForm">
+    <Position X="17.5" Y="1.25" Width="2.25" />
+    <Members>
+      <Field Name="btnCancel" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dateTimePicker1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="labelCategory" Hidden="true" />
+      <Field Name="labelName" Hidden="true" />
+      <Field Name="labelPrice" Hidden="true" />
+      <Field Name="textBoxQuantity" Hidden="true" />
+      <Field Name="txtboxPrice" Hidden="true" />
+      <Field Name="txtCategoryName" Hidden="true" />
+      <Field Name="txtProductName" Hidden="true" />
+      <Field Name="userIdDB" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQAAAAgAACAEABEGgACEAEACAAAJgAAAAEACAAAAAAA=</HashCode>
+      <FileName>AddProductForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="productsData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoginApp.Admin">
+    <Position X="8.75" Y="1" Width="2.25" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIGAAABAAAADAQAACAQAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginApp.Buyer">
+    <Position X="8.75" Y="8" Width="3.25" />
+    <Members>
+      <Field Name="btnCheckout" Hidden="true" />
+      <Field Name="btnExit" Hidden="true" />
+      <Field Name="comboBoxItems" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="contextMenuStrip1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lblProductPrice" Hidden="true" />
+      <Field Name="lblQuantity" Hidden="true" />
+      <Field Name="lblSelectProduct" Hidden="true" />
+      <Field Name="lblStock" Hidden="true" />
+      <Field Name="lblWelcome" Hidden="true" />
+      <Field Name="numSelectAmount" Hidden="true" />
+      <Field Name="txtBoxPrice" Hidden="true" />
+      <Field Name="txtProductStock" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAAIBAEaAIACIAAAGBAACCgCAIAAAAAAAAFBAAAQA=</HashCode>
+      <FileName>Buyer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ProductsData" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LoginApp.BuyerCheckout">
+    <Position X="31" Y="4.75" Width="2.25" />
+    <Members>
+      <Field Name="backgroundWorker1" Hidden="true" />
+      <Field Name="btnExit" Hidden="true" />
+      <Field Name="btnPlaceOrder" Hidden="true" />
+      <Field Name="btnReset" Hidden="true" />
+      <Field Name="comboBoxPayment" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="lblAmnt" Hidden="true" />
+      <Field Name="lblCheckout" Hidden="true" />
+      <Field Name="lblName" Hidden="true" />
+      <Field Name="lblOrderdetails" Hidden="true" />
+      <Field Name="lblPrice" Hidden="true" />
+      <Field Name="lblProductName" Hidden="true" />
+      <Field Name="lblProductPrice" Hidden="true" />
+      <Field Name="lblProductQuantity" Hidden="true" />
+      <Field Name="lblQuantity" Hidden="true" />
+      <Field Name="lblTotal" Hidden="true" />
+      <Field Name="txtBoxAddress" Hidden="true" />
+      <Field Name="txtBoxName" Hidden="true" />
+      <Field Name="txtBoxPhone" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QQEAAQAAAaAAAhCAAECACABCQGAqAAQAABgAAQEAQRA=</HashCode>
+      <FileName>BuyerCheckout.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ordersData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoginApp.DeleteProductSeller">
+    <Position X="12.5" Y="5" Width="3" />
+    <Members>
+      <Field Name="btnCancelProduct" Hidden="true" />
+      <Field Name="btnRemoveProduct" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="labelProductName" Hidden="true" />
+      <Field Name="labelWhichProduct" Hidden="true" />
+      <Field Name="productId" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAIABAQACAoAAAQAgCAAAACABAAAAAAAAAADAAAAgA=</HashCode>
+      <FileName>DeleteProductSeller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ProductsData" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LoginApp.Login">
+    <Position X="25.25" Y="1.75" Width="2.25" />
+    <Members>
+      <Field Name="btnNewAcc" Hidden="true" />
+      <Field Name="btnSignUp" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="txtboxUsername" Hidden="true" />
+      <Field Name="txtboxUserpass" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAICgAAAIAAAGAAAACCAIBAAAAAAQAAACAAAA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="usersData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoginApp.Navigation">
+    <Position X="5.5" Y="6" Width="2" />
+    <Members>
+      <Field Name="btnAdmin" Hidden="true" />
+      <Field Name="btnBuyer" Hidden="true" />
+      <Field Name="btnSeller" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAgAAECAAAAKAAABAAAAAAAACAgAAAA=</HashCode>
+      <FileName>Navigation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginApp.newUser">
+    <Position X="31.5" Y="1.5" Width="2.5" />
+    <Members>
+      <Field Name="btnCreateAcc" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lblName" Hidden="true" />
+      <Field Name="lbluserName" Hidden="true" />
+      <Field Name="lblUserPass" Hidden="true" />
+      <Field Name="radioButton1" Hidden="true" />
+      <Field Name="radioButton2" Hidden="true" />
+      <Field Name="txtUsername" Hidden="true" />
+      <Field Name="txtUserpass" Hidden="true" />
+      <Field Name="Welcome" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQABkAAAECEAAAAAAAWABAACAAAAACAAABAAAAQAAAI=</HashCode>
+      <FileName>newUser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="usersData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoginApp.Orders" Collapsed="true">
+    <Position X="31.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAIAgAAAAAQAAAIEAAAAAAAJIEAA=</HashCode>
+      <FileName>Orders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginApp.OrdersData" Collapsed="true">
+    <Position X="31.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgQAAABCABAAAAAAAAAAAAAAAABAAAABAAAAACAAIA=</HashCode>
+      <FileName>OrdersData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="orders" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LoginApp.Product">
+    <Position X="19" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAKAAAAAAAAAAEAIAAAAIAAAAAAgA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginApp.ProductsData">
+    <Position X="18.25" Y="4.25" Width="2.75" />
+    <AssociationLine Name="products" Type="LoginApp.Product">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.848" Y="0.121" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>oAAQAAAAAAhAAEAAAAAAAAAAEAAIgAAAAAAFBACAAAA=</HashCode>
+      <FileName>ProductsData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LoginApp.Seller">
+    <Position X="8.75" Y="4" Width="2.5" />
+    <Members>
+      <Field Name="btnAddProduct" Hidden="true" />
+      <Field Name="btnClose" Hidden="true" />
+      <Field Name="btnRmvProduct" Hidden="true" />
+      <Field Name="btnupdateProduxt" Hidden="true" />
+      <Field Name="btnviewProduct" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="SellerId" Hidden="true" />
+      <Field Name="SellerName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AKAAQAAAADABABgAAACAACAKQAEAQQAAAIAACCAAAAA=</HashCode>
+      <FileName>Seller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginApp.UpdateProductSeller">
+    <Position X="12.5" Y="9.5" Width="3" />
+    <Members>
+      <Field Name="bTnClose" Hidden="true" />
+      <Field Name="bTnUpdate" Hidden="true" />
+      <Field Name="chckBoxPrice" Hidden="true" />
+      <Field Name="chckBoxStock" Hidden="true" />
+      <Field Name="chkBoxName" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="laBelProductList" Hidden="true" />
+      <Field Name="selectedId" Hidden="true" />
+      <Field Name="textBoxName" Hidden="true" />
+      <Field Name="textBoxPrice" Hidden="true" />
+      <Field Name="textBoxQuantity" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EFAAAAgAACAkASQwAAKAAAACAgAAAAAAACgABAAEAGA=</HashCode>
+      <FileName>UpdateProductSeller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="productsData" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LoginApp.UsersData" Collapsed="true">
+    <Position X="29" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAlAAAAAAgAAAAEAAIAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>UsersData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginApp.ViewProductsSeller">
+    <Position X="12.5" Y="1.25" Width="3.75" />
+    <Members>
+      <Field Name="bTnClose" Hidden="true" />
+      <Field Name="comboBoxProductList" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="labelName" Hidden="true" />
+      <Field Name="labelPrice" Hidden="true" />
+      <Field Name="labelProductList" Hidden="true" />
+      <Field Name="labelQuantity" Hidden="true" />
+      <Field Name="labelYourProduct" Hidden="true" />
+      <Field Name="textBoxName" Hidden="true" />
+      <Field Name="textBoxPrice" Hidden="true" />
+      <Field Name="textBoxQuantity" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AVAAAgAAACAsIAAECAKAAAACAgAAAAAAAAAABAAQECA=</HashCode>
+      <FileName>ViewProductsSeller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ProductsData" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
